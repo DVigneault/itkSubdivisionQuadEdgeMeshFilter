@@ -34,7 +34,7 @@ namespace itk
  *
  * \ingroup SubdivisionQuadEdgeMeshFilter
  */
-template< typename TInputMesh, typename TOutputMesh >
+template< typename TInputMesh, typename TOutputMesh = TInputMesh >
 class ModifiedButterflyTriangleCellSubdivisionQuadEdgeMeshFilter:
   public TriangleCellSubdivisionQuadEdgeMeshFilter< TInputMesh, TOutputMesh >
 {
